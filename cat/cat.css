@@ -67,7 +67,7 @@ a{
 
 main{
     height: 488px;
-    background-image: url("/media/cat-main-bg.png");
+    background-image: url("../media/cat-main-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
