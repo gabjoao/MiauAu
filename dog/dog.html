@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../media/icon.png">
+    <link rel="stylesheet" type="text/css" href="dog.css">
+    <script defer src="dog.js"></script>
+    <title>MiauAu - Cachorros</title>
+</head>
+<body>
+    <header>
+        <a href="/index.html"><img src="/media/icon.png" alt="Logo"></a>   
+
+        <menu>
+            <a href="/dog/dog.html"><li>CACHORROS</li></a>
+            <a href="/cat/cat.html"><li>GATOS</li></a>
+            <a href="#dicas-adoção"><li>DICAS DE ADOÇÃO</li></a>    
+            <a href="#footer"><li>CONTATO</li></a>   
+        </menu>
+
+    </header>
+
+
+    <main>
+        <h1>Pesquise uma raça</h1>
+        <form action="">
+            <select id="raça" name="raça">
+                <option value="1">Affenpinscher</option><option value="2">Afghan Hound</option><option value="3">African Hunting Dog</option><option value="4">Airedale Terrier</option><option value="5">Akbash</option><option value="6">Akita</option><option value="7">Buldogue Alapha de sangue azul</option><option value="8">Husky Siberiano</option><option value="9">Malamute do Alaska</option><option value="10">Buldogue Americano</option><option value="11">Bully Americano</option><option value="12">Esquimó Americano</option><option value="13">Esqimó Americano - miniatura </option><option value="14">Foxhound-americano</option><option value="15">Pit Bull Terrier Americano</option><option value="16">American Staffordshire Terrier</option><option value="17">American Water Spaniel</option><option value="18">Anatolian Shepherd Dog</option><option value="19">Appenzeller Sennenhund</option><option value="21">Australian Cattle Dog</option><option value="22">Australian Kelpie</option><option value="23">Australian Shepherd</option><option value="24">Australian Terrier</option><option value="25">Azawakh</option><option value="26">Barbet</option><option value="28">Basenji</option><option value="29">Basset Bleu de Gascogne</option><option value="30">Basset Hound</option><option value="31">Beagle</option><option value="32">Bearded Collie</option><option value="33">Beauceron</option><option value="34">Bedlington Terrier</option><option value="36">Belgian Malinois</option><option value="38">Belgian Tervuren</option><option value="41">Bernese Mountain Dog</option><option value="42">Bichon Frise</option><option value="43">Black and Tan Coonhound</option><option value="45">Bloodhound</option><option value="47">Bluetick Coonhound</option><option value="48">Boerboel</option><option value="50">Border Collie</option><option value="51">Border Terrier</option><option value="53">Boston Terrier</option><option value="54">Bouvier des Flandres</option><option value="55">Boxer</option><option value="56">Boykin Spaniel</option><option value="57">Bracco Italiano</option><option value="58">Briard</option><option value="59">Brittany</option><option value="61">Bull Terrier</option><option value="64">Bullmastiff</option><option value="65">Cairn Terrier</option><option value="67">Cane Corso</option><option value="68">Cardigan Welsh Corgi</option><option value="69">Catahoula Leopard Dog</option><option value="70">Caucasian Shepherd (Ovcharka)</option><option value="71">Cavalier King Charles Spaniel</option><option value="76">Chesapeake Bay Retriever</option><option value="78">Chinese Crested</option><option value="79">Chinese Shar-Pei</option><option value="80">Chinook</option><option value="81">Chow Chow</option><option value="84">Clumber Spaniel</option><option value="86">Cocker Spaniel</option><option value="89">Coton de Tulear</option><option value="92">Dalmatian</option><option value="94">Doberman Pinscher</option><option value="95">Dogo Argentino</option>
+            </select>
+            <input type="submit" id="pesquisar" name="pesquisar" value="Pesquisar">
+        </form>
+
+        <h2>ou</h2>
+
+        <button id="galeria" onclick="galeria()">Confira a galeria!</button>
+    </main>
+
+    <section class="raça-container">
+        <div class="raça-content">
+            <div class="infos">
+                <aside class="foto">
+
+                </aside>
+
+                <aside class="txt">
+
+                </aside>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="grid">
+        <section id="grid-container">
+
+        </section>
+
+        <button id="mais" onclick="mais()">Ver mais</button>
+    </section>
+    
+    <section id="dicas-adoção">
+        <div class="titulo">
+            <img src="/media/adotar-logo.png" alt="Logo adoção">
+            <h1>Quer <font color="#8A0F0F">adotar</font> um pet?</h1>
+        </div>
+
+        <article class="dica a">
+            <aside class="content">
+                <div class="t-container">
+                    <h1 id="dica">Dica 1</h1>
+                    <h2>Prepare-se</h2>
+                </div>
+                
+    
+                <div class="dica-container">
+                    <p>Antes de adotar um animal, é preciso pensar bem. Não é uma decisão que se toma de uma hora para outra. Você tem que avaliar se pode oferecer tudo o que o pet precisa, como alimentação, saúde, carinho, tempo e espaço adequado (dependendo do tipo de animal que você quer). Por isso, pesquise sobre os cuidados que cada espécie exige, converse com amigos que já têm bichinhos e, se achar necessário, procure um veterinário.</p>
+                </div>
+            </aside>
+
+            <img src="/media/img-1.png" alt="Imagem 1">
+        </article>
+
+        <article class="dica b">
+            <aside class="content">
+                <div class="t-container">
+                    <h1 id="dica">Dica 2</h1>
+                    <h2>Prepare o ambiente</h2>
+                </div>
+                
+    
+                <div class="dica-container">
+                    <p>O ambiente onde você vai colocar o seu animal é muito importante. Você deve preparar a sua casa para que ela seja segura e divertida para os pets. Cachorros grandes necessitam de lugares espaçosos, até mesmo quintais, para se movimentarem. Gatos gostam de estruturas altas, que eles possam subir e explorar. Procure adequar a sua casa ao pet que você quer adotar, e consulte o abrigo e os veterinários sobre o tamanho que ele pode alcançar e as melhores estruturas para a sua espécie.</p>
+                </div>
+            </aside>
+
+            <img src="/media/img-2.png" alt="Imagem 2">
+        </article>
+
+        <article class="dica a">
+            <aside class="content">
+                <div class="t-container">
+                    <h1 id="dica">Dica 3</h1>
+                    <h2>Escute seu pet</h2>
+                </div>
+               
+    
+                <div class="dica-container">
+                    <p>Quando você adotar um pet, é importante ter uma rotina e um ambiente seguro para ele, além de atender às suas necessidades específicas. Por exemplo, os gatos precisam de um lugar limpo e calmo, ter horários bem definidos e ficar em espaços protegidos (telar todas as janelas). Os cachorros precisam disso tudo e também de uma rotina de higiene, escovação e tempo para caminhadas. Ah, e acessórios: potes adequados para cada espécie, cobertores, camas ou caixas para dormir e escovas de pelo.</p>
+                </div>
+            </aside>
+
+            <img src="/media/img-3.png" alt="Imagem 3">
+        </article>
+
+        <article class="dica b">
+            <aside class="content">
+                <div class="t-container">
+                    <h1 id="dica">Dica 4</h1>
+                    <h2>Guarde dinheiro</h2>
+                </div>
+                
+                <div class="dica-container">
+                    <p>Reserve uma quantia para exames preventivos e vacinação do seu animal. Ao adotar um pet, você precisa saber do abrigo se ele já foi vacinado e quais vacinas ele tomou, além de saber se ele já foi esterilizado. Algumas vacinas são gratuitas pelo sistema público, mas é sempre bom ter um dinheiro para a imunização dos peludos. Também priorize fazer exames para detectar doenças virais e comuns na região. Os gatos, por exemplo, devem fazer um exame de FIV ou FELV, a leucemia felina, que pode passar entre os gatinhos.</p>
+                </div>
+            </aside>
+
+            <img src="/media/img-4.png" alt="Imagem 4">
+        </article>
+    </section>
+
+    <footer id="footer">
+        <section class="footer-content">
+            <article class="info">
+                <div class="logo">
+                    <h1>MIAU<font color ="#8A0F0F">AU</font></h1>
+                    <img src="/media/icon.png" alt="Imagem 5">
+                </div>
+                <p>é um projeto sem fins lucrativos, um lugar onde cada miau miau e au au ganha destaque.</p>
+            </article>
+    
+            <p>Feito com o ♥ por</p>
+    
+            <div class="links">
+                <div>
+                    <picture>
+                        <a href="https://www.instagram.com/maria.glovacki/">
+                            <img src="/media/instagram.png" alt="Logo Instagram">
+                            <p>maria.glovacki</p>
+                        </a>
+                    </picture>
+    
+                    <picture>
+                        <a href="https://github.com/glovackimax">
+                            <img src="/media/github.png" alt="Logo Github">
+                            <p>glovackimax</p>
+                        </a>
+                    </picture>
+                </div>
+    
+                <div>
+                    <picture>
+                        <a href="https://www.instagram.com/gabjoaoz/">
+                            <img src="/media/instagram.png" alt="Logo Instagram">
+                            <p>gabjoaoz</p>
+                        </a>
+                    </picture>
+    
+                    <picture>
+                        <a href="https://github.com/gabjoao">
+                            <img src="/media/github.png" alt="Logo Github">
+                            <p>gabjoao</p>
+                        </a>
+                    </picture>
+                </div>
+
+                <div>
+                    <picture>
+                        <a href="https://www.instagram.com/henriquegav/">
+                            <img src="/media/instagram.png" alt="Logo Instagram">
+                            <p>henriquegav</p>
+                        </a>
+                    </picture>
+        
+                    <picture>
+                        <a href="https://github.com/HenriqueGav">
+                            <img src="/media/github.png" alt="Logo Github">
+                            <p>HenriqueGav</p>
+                        </a>
+                    </picture>
+                </div>
+            </div>
+    
+            <div class="linha"></div>
+    
+            <div class="direitos">
+                <p>
+                    As imagens e informações sobre raças foram retiradas do <a href="https://www.thedogapi.com"> TheDogApi</a> e <a href="https://www.thecatapi.com">TheCatApi.</a> Todos os direitos reservados.</p>
+                <p>
+                    As imagens de demonstração foram retiradas do <a href="https://www.freepik.com">Freepik.</a>  Todos os direitos reservados.
+                </p>
+                <p>
+                    Os ícones foram retirados do <a href="https://icons8.com.br">Icons8.</a> Todos os direitos reservados.
+                </p>
+            </div>
+    
+            <div class="c">
+                <p>Sem cookies, apenas petiscos.</p>
+                <p>&copy gabjoao, glovackimax e henriquegav 2023</p>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
